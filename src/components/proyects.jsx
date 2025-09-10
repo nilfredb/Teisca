@@ -60,15 +60,15 @@ const ProjectCard = ({ project }) => {
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-      <div className="absolute bottom-0 left-0 w-full p-8 text-white">
-        <div className="transform transition-all duration-500 ease-in-out group-hover:translate-y-0 translate-y-20 opacity-0 group-hover:opacity-100">
+      <div className="absolute bottom-0 left-0 w-full p-8 text-white flex flex-col justify-end h-2/3">
+        <div className="transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100 mb-8">
           <h3 className="text-4xl font-bold tracking-tight">{project.title}</h3>
           <div className="flex items-center text-gray-200 mt-2">
             <MapPin className="w-5 h-5 mr-2" />
             <span>{project.location}</span>
           </div>
         </div>
-        <div className="absolute bottom-8 right-8 left-8 transform transition-all duration-500 ease-in-out translate-y-full group-hover:translate-y-0">
+        <div className="transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100">
           <button className="flex items-center justify-center w-full py-4 bg-white/10 hover:bg-white/20 backdrop-blur-md rounded-lg font-semibold transition-colors duration-300">
             Explorar Proyecto
             <ArrowUpRight className="w-5 h-5 ml-2 transform transition-transform duration-300 group-hover:rotate-45" />
@@ -562,7 +562,7 @@ const TeiscaCompleteWebsite = () => {
                           Línea Ejecutiva
                         </p>
                         <p className="text-gray-600 font-semibold">
-                          +1 (809) 123-4567
+                          +1 (809) 805-1380
                         </p>
                       </div>
                     </div>
@@ -576,7 +576,8 @@ const TeiscaCompleteWebsite = () => {
                           Email Ejecutivo
                         </p>
                         <p className="text-gray-600 font-semibold">
-                          luxury@teisca.com
+                          Teishondalmasi@gmail.com / teiscasrl@hotmail.com
+
                         </p>
                       </div>
                     </div>
@@ -590,11 +591,7 @@ const TeiscaCompleteWebsite = () => {
                           Oficina Central
                         </p>
                         <p className="text-gray-600">
-                          Torre Empresarial, Piso 25
-                          <br />
-                          Av. Abraham Lincoln #123
-                          <br />
-                          Piantini, Santo Domingo
+                          Calle Castillo Márquez #39 Plaza El Paseo, Módulo 6, 2do. Nivel | La Romana, Rep. Dom
                         </p>
                       </div>
                     </div>
@@ -719,20 +716,16 @@ const TeiscaCompleteWebsite = () => {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Phone className="w-5 h-5 text-amber-500 mr-3" />
-                  <span className="text-gray-300">+1 (809) 123-4567</span>
+                  <span className="text-gray-300">+1 (809) 805-1380</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 text-amber-500 mr-3" />
-                  <span className="text-gray-300">luxury@teisca.com</span>
+                  <span className="text-gray-300">Teishondalmasi@gmail.com / teiscasrl@hotmail.com</span>
                 </div>
                 <div className="flex items-start">
                   <MapPin className="w-5 h-5 text-amber-500 mr-3 mt-1" />
                   <div className="text-gray-300">
-                    Torre Empresarial, Piso 25
-                    <br />
-                    Av. Abraham Lincoln #123
-                    <br />
-                    Piantini, Santo Domingo
+                    Calle Castillo Márquez #39 Plaza El Paseo, Módulo 6, 2do. Nivel | La Romana, Rep. Dom
                   </div>
                 </div>
               </div>

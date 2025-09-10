@@ -1146,7 +1146,7 @@ const TeiscaWebsite = () => {
                     <div>
                       <p className="font-bold text-gray-800">Email Ejecutivo</p>
                       <p className="text-gray-600 font-semibold">
-                        luxury@teisca.com
+                        Teishondalmasi@gmail.com / teiscasrl@hotmail.com
                       </p>
                     </div>
                   </div>
@@ -1285,20 +1285,16 @@ const TeiscaWebsite = () => {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Phone className="w-5 h-5 text-amber-500 mr-3" />
-                  <span className="text-gray-300">+1 (809) 123-4567</span>
+                  <span className="text-gray-300">+1 (809) 805-1380</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 text-amber-500 mr-3" />
-                  <span className="text-gray-300">luxury@teisca.com</span>
+                  <span className="text-gray-300">Teishondalmasi@gmail.com / teiscasrl@hotmail.com</span>
                 </div>
                 <div className="flex items-start">
                   <MapPin className="w-5 h-5 text-amber-500 mr-3 mt-1" />
                   <div className="text-gray-300">
-                    Torre Empresarial, Piso 25
-                    <br />
-                    Av. Abraham Lincoln #123
-                    <br />
-                    Piantini, Santo Domingo
+                    Calle Castillo Márquez #39 Plaza El Paseo, Módulo 6, 2do. Nivel | La Romana, Rep. Dom
                   </div>
                 </div>
               </div>
